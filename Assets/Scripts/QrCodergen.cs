@@ -27,6 +27,7 @@ namespace generator
         public Text errorMessage;
         public Text tokenText;
         public RawImage successImage;
+        public GameObject qrCodePanel; // Add this line
         string m_auth_host = "wss://hive-auth.arcange.eu";
         private ClientWebSocket socket;
 
@@ -193,7 +194,7 @@ namespace generator
         {
             await Task.Delay(5000); // Wait for 5 seconds
             // Load the next scene
-            SceneManager.LoadScene("Login-hiveunity");
+            SceneManager.LoadScene("MainMenu");
 
             return null;
         }
@@ -210,6 +211,7 @@ namespace generator
                 errorMessage.text = "Please enter a username.";
                 return;
             }
+            qrCodePanel.SetActive(true); // Add this line to activate the QR code panel
             // using (ClientWebSocket ws = new ClientWebSocket())
             ClientWebSocket socket = new ClientWebSocket();
             {
