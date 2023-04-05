@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f3758f8f58fdef43803eb9be1df0608, type: 3}
+  m_Name: PhotonServerSettings
+  m_EditorClassIdentifier: 
+  AppSettings:
+    AppIdRealtime: b155e53a-8156-43d7-ab29-461afb3885bb
+    AppIdFusion: 
+    AppIdChat: 
+    AppIdVoice: 
+    AppVersion: 
+    UseNameServer: 1
+    FixedRegion: us
+    Server: 
+    Port: 0
+    ProxyServer: 
+    Protocol: 0
+    EnableProtocolFallback: 1
+    AuthMode: 0
+    EnableLobbyStatistics: 0
+    NetworkLogging: 1
+  DevRegion: 
+  PunLogging: 0
+  EnableSupportLogger: 0
+  RunInBackground: 1
+  StartInOfflineMode: 0
+  RpcList:
+  - AddStaminaRPC
+  - AttackRPC
+  - CastSpellRPC
+  - CastSpellWithCard
+  - ChangeOpponentCardPostionToCenter_RPC
+  - CheckWin
+  - ClickRpc
+  - CreateObj
+  - DealDamage
+  - DeductRageRPC
+  - DeductSpeedRPC
+  - DeductStaminaRPC
+  - DestroyCardRPC
+  - DestroyMovePlatesRPC
+  - DestroyPiece
+  - DestroyRpc
+  - DestroySpaceship
+  - DisplayOpponentCard_RPC
+  - ExecuteAttackRPC
+  - Fire
+  - GenerateCardsForOppnent
+  - GenerateDeck
+  - GetSuffledIndex
+  - GetSuffledIndexSedondTime
+  - HandleWinRPC
+  - InitiateMovePlatesRPC
+  - MouseEnter_RPC
+  - OnClickRPC
+  - OnDestroyRPC
+  - PlayerWon
+  - ReloadScene_RPC
+  - RematchRejected
+  - ResetPVPUIData
+  - RespawnSpaceship
+  - RestartRPC
+  - RPC_foldbuttonEffect
+  - RPC_Generate2Cards
+  - RPC_otherplayerTurnPoker
+  - RPC_ResetTurn
+  - RPC_SetLastAttackerColor
+  - RPC_SetOpponentAttackChoice
+  - RPC_SetOthersAsDefenders
+  - RPC_SetOthersPlayerStrength
+  - RPC_setSameStackToOtherPlayer
+  - RPC_UpdateTurn
+  - Rset_BOOL_RPC
+  - SecondTimeShuffle
+  - SetALLButtonsOff_RPC
+  - SetAutoTurnOnOff_RPC
+  - SetDataRPC
+  - SetDeckIm
+  - SetLoadingScreenOff_RPC
+  - SetOpponentAttackedSide_RPC
+  - SetOpponentAttackPiecePieceType
+  - SetOpponentAttackWeakPercentage_RPC
+  - SetOpponentCard_RPC
+  - setOpponentHandCardValues
+  - SetOpponentRemainingHandHealth_RPC
+  - SetOpponentRemainingHandHealth_RPCPlus
+  - SetPieceType
+  - SetPosRPC
+  - SetPVPModeRPC
+  - SetPVPTurn
+  - SetSuffledCard
+  - SetSuffledCardSedondTime
+  - ShowExtraDamageMessage_RPC
+  - ShowplayerChoices
+  - ShowRematch
+  - StartWithDealy_RPC
+  - StartWithDealySedondTime_RPC
+  - SwitchCurrentPlayer
+  - SwitchPVPTurn
+  - SyncAllInRPC
+  - SyncPlayerChoice
+  - UpdateAttackForText
+  - UpdateBatAmount
+  - UpdateLastAction_RPC
+  - UpdateLastAtkAmt
+  - UpdateLastBatAmount
+  - UpdateManaRPC
+  - UpdateOpponentAttackLocation_RPC
+  - UpdateOpponentDefenceLocation_RPC
+  - UpdateOpponentEffects_RPC
+  - UpdateOpponentRangePoints
+  - UpdateOpponentStamina
+  - UpdatePotAmountForAllInText
+  - UpdatePotAmountForText
+  - UpdateRagePoints_RPC
+  - UpdateSpeedPoints
+  - WinMatch
+  - DistributeAttackRPC
+  - ApplyAttackEffs
+  - ResetDataRPC
+  - SwitchStartHandTurnRPC
+  - IncreaseStaminaRPC
+  - UpdateBetForPlayerRPC
+  - SimpleAttackRPC
+  - UpdateDeadPiecesRPC
+  - updatePLayerActionRPC
+  DisableAutoOpenWizard: 1
+  ShowSettings: 1
+  DevRegionSetOnce: 0
