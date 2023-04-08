@@ -194,7 +194,7 @@ namespace generator
         {
             await Task.Delay(5000); // Wait for 5 seconds
             // Load the next scene
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("LoadingScreen");
 
             return null;
         }
