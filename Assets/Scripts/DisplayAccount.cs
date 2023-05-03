@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,11 +7,11 @@ using UnityEngine.Networking;
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Debug = UnityEngine.Debug;
 
 public class DisplayAccount : MonoBehaviour
 {
     public Text profileName;
-
     public RawImage profileImage;
 
     private string account;
@@ -21,9 +22,8 @@ public class DisplayAccount : MonoBehaviour
     {
         hiveProfileFetcher = FindObjectOfType<HiveProfileFetcher>();
         account = PlayerPrefs.GetString("account");
-        StartCoroutine(hiveProfileFetcher.FetchProfile(HandleProfileData));
+        StartCoroutine(hiveProfileFetcher.FetchProfile(account, HandleProfileData));
     }
-
 
     private void HandleProfileData(string error, JObject profileData)
     {
@@ -64,7 +64,6 @@ public class DisplayAccount : MonoBehaviour
         profileName.text = (string)parsedProfileData["name"];
 
         StartCoroutine(LoadProfileImage((string)parsedProfileData["profile_image"]));
-
     }
 
     private IEnumerator LoadProfileImage(string url)

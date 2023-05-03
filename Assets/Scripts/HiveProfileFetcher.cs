@@ -6,10 +6,8 @@ using Newtonsoft.Json.Linq;
 
 public class HiveProfileFetcher : MonoBehaviour
 {
-
-    public IEnumerator FetchProfile(Action<string, JObject> callback)
+    public IEnumerator FetchProfile(string account, Action<string, JObject> callback)
     {
-        string account = PlayerPrefs.GetString("account");
         string apiUrl = "https://api.hive.blog";
         string postData = "{\"jsonrpc\":\"2.0\", \"method\":\"condenser_api.get_accounts\", \"params\":[[\"" + account + "\"]], \"id\":1}";
 

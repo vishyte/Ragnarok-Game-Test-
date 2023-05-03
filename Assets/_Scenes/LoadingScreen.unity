@@ -341,7 +341,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e52e385369c046941ac47de8eeb2c538, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a048e7cc5facaee4d874d980cedf8dbb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -427,8 +427,8 @@ Canvas:
   m_GameObject: {fileID: 873290224}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 175567819}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -498,8 +498,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: 184}
-  m_SizeDelta: {x: 1174.3833, y: 217.1588}
+  m_AnchoredPosition: {x: 1, y: 213.39}
+  m_SizeDelta: {x: 717.2, y: 349.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1644327011
 MonoBehaviour:
@@ -521,7 +521,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ecf3d86f69d645347a1628fa4592069f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 46c898b696179474091346fa4b96976b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -568,9 +568,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54eca741aefdcf40808092a118a79f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetSceneName: MainMenu
+  targetSceneName: NewMainMenu
   progressText: {fileID: 1981126269}
-  waitTime: 2
+  waitTime: 5
 --- !u!4 &1682166939
 Transform:
   m_ObjectHideFlags: 0
@@ -617,7 +617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9528302, g: 0.886643, b: 0.16539691, a: 1}
+  m_Color: {r: 0.16078432, g: 0.7411765, b: 0.4666667, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -625,8 +625,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: e00995507c2406448b4c8429136104dd, type: 3}
-    m_FontSize: 60
+    m_Font: {fileID: 12800000, guid: acd8f71e65e0b2f45baf2be2b5691310, type: 3}
+    m_FontSize: 71
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
@@ -663,6 +663,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -79.9182}
-  m_SizeDelta: {x: 569.1055, y: 74.5076}
+  m_AnchoredPosition: {x: 0, y: -159}
+  m_SizeDelta: {x: 604.86, y: 131.71}
   m_Pivot: {x: 0.5, y: 0.5}
