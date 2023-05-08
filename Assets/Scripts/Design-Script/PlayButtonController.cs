@@ -6,7 +6,7 @@ using Photon.Realtime;
 public class PlayButtonController : MonoBehaviourPunCallbacks
 {
     public Button playButton;
-     public Text statusText;
+    public Text statusText;
 
     private void Start()
     {
@@ -21,12 +21,12 @@ public class PlayButtonController : MonoBehaviourPunCallbacks
     }
 
     private void OnPlayButtonClick()
-{
-    statusText.text = "Creating room...";
-    PhotonCallback photonCallback = FindObjectOfType<PhotonCallback>();
-    if (photonCallback != null)
     {
-        photonCallback.FindMatch();
+        statusText.text = "Finding match...";
+        PhotonCallback photonCallback = FindObjectOfType<PhotonCallback>();
+        if (photonCallback != null)
+        {
+            photonCallback.JoinRandomRoom();
+        }
     }
-}
 }

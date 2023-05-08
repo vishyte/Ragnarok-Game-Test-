@@ -32,7 +32,7 @@ public class PhotonCallback : MonoBehaviourPunCallbacks
         isReadyToFindMatch = true;
     }
 
-    public void FindMatch()
+    public void JoinRandomRoom()
     {
         if (isReadyToFindMatch)
         {
